@@ -1,0 +1,15 @@
+# Site settings
+title: Sheekyll
+description: "Here comes the description of your website"
+url: "http://yourdomain.com"
+baseurl: ""
+
+# Sheekyll settings
+logoUrl: http://placehold.it/160
+email: your-email@domain.com
+homeArticle: 5
+twitterUsername: jbleuzen
+
+# Build settings
+markdown: kramdown
+permalink: pretty
