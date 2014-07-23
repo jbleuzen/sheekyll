@@ -48,7 +48,7 @@ adder(2, 6);
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
-## Images
+### Images
 
 You can either use the following code to display an image : 
 
@@ -59,7 +59,7 @@ You can either use the following code to display an image :
 </figure>
 {% endhighlight %}
 
-Capture images are generally images in PNG with white space (like OSX captues), here is the result : 
+Capture images are generally images in PNG with white space (like OSX captures), here is the result : 
 
 <figure class="capture">
    <img src="http://placehold.it/400x300" width="400" height="300"/>
