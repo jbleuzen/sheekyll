@@ -20,10 +20,11 @@
         </header>
         <div id="post-content" class="ten">
           {{ content }}
+          {% if site.twitterUsername %}
           <footer class="article-footer">
              <a target="_blank" href="http://twitter.com/?status={{ page.title | replace: '&amp;', '%26' | replace: '&', '%26' | replace: ' ', '+' }}%20{{ site.url }}{{ page.url | replace: '.html', '' }}%20via%20%40{{ site.twitterUsername }}">Share on Twitter</a>
           </footer>
-
+         {% endif %}
         </div>
       </article>
       {% include footer.html %}
