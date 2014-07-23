@@ -1,8 +1,8 @@
 # Site settings
 title: Sheekyll
 description: "Here comes the description of your website"
-url: "http://jbleuzen.github.io"
-baseurl: "/sheekyll/"
+url: "http://yourdomain.com"
+baseurl: ""
 
 # Sheekyll settings
 logoUrl: http://placehold.it/160
