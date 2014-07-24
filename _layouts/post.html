@@ -24,7 +24,32 @@
           <footer class="article-footer">
              <a target="_blank" href="http://twitter.com/?status={{ page.title | replace: '&amp;', '%26' | replace: '&', '%26' | replace: ' ', '+' }}%20{{ site.url }}{{ page.url | replace: '.html', '' }}%20via%20%40{{ site.twitterUsername }}">Share on Twitter</a>
           </footer>
-         {% endif %}
+          {% endif %}
+          {% if site.disqusUsername %}
+          <div id="post-comments" class="ten">
+            <div id="disqus_thread"></div>
+          </div>
+          <script>
+            function load_disqus() {
+              var dsq = document.createElement('script'); 
+              dsq.type = 'text/javascript'; 
+              dsq.async = true; 
+              dsq.src = "https://{{ site.disqusUsername }}.disqus.com/embed.js"; 
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              disqus_loaded = true; 
+            }
+
+              var disqus_loaded = false;
+              window.onscroll = function(e) {
+                if ((window.innerHeight + window.scrollY + 1000) >= document.body.offsetHeight) {
+                  if (disqus_loaded === false){ 
+                    load_disqus();
+                  }    
+                }
+              };
+          </script>
+          {% endif %}
+
         </div>
       </article>
       {% include footer.html %}

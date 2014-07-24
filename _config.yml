@@ -9,6 +9,7 @@ logoUrl: http://placehold.it/160
 email: your-email@domain.com
 homeArticle: 5
 twitterUsername: jbleuzen
+disqusUsername: XXX
 
 # Build settings
 markdown: kramdown
