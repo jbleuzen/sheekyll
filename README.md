@@ -7,9 +7,9 @@ I had request to share it, so here it comes.
 
 The theme is based on [foundation](http://foundation.zurb.com/) without other dependencies, it's simple, lightweight, responsive and focus on the content first.
 
-![Capture of sheekyll](http://johan.me/GseTIl7E4R.png)
+![Capture of sheekyll's homepage](http://static.johanbleuzen.fr/img/2014/07/capture-home-sheekyll.png)
 
-![Capture of sheekyll](http://johan.me/x21TGnQrAB.png)
+![Capture of sheekyll's post page](http://static.johanbleuzen.fr/img/2014/07/capture-content-sheekyll.png)
 
 ## Options
 
@@ -20,10 +20,7 @@ You must define your logo
 * email : The email for contact link,
 * homeArticle : The number of posts displayed on home,
 * twitterUsername : Your Twitter username for share buttons
-
-## TODO
-
-* Add disqusUsername option
+* disqusUsername : Your Disqus username for comments
 
 ## Development
 
